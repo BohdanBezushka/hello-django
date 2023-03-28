@@ -21,6 +21,3 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', get_todo_list, name='get_todo_list')
 ]
-
-
-
